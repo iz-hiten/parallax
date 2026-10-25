@@ -18,8 +18,11 @@ One Next.js app: landing page, the app (`/app`), and the API, deployable to Verc
 | `lib/engine/costs.ts` | Brokerage, exchange charge, SEBI fee, CTT, stamp duty, GST and slippage model |
 | `lib/parse.ts` | Reads the CSV / XLS / JSON that mcxindia.com gives you |
 | `app/` | Landing page, `/app` pages and `/api` routes |
+| `public/film.mp4` | The two-and-a-half-minute explainer film shown on the landing page |
 
 ## Run it locally
+
+Needs Node.js 18.18 or newer.
 
 ```bash
 npm install
@@ -30,8 +33,8 @@ Without Firebase keys everything works except sign-in, uploads and saved alert r
 
 ## Deploy to Vercel
 
-1. Push this folder to a GitHub repository.
-2. In Vercel, **Add New → Project**, import the repository. Framework is detected as Next.js; no build settings to change.
+1. Push this repository to GitHub.
+2. In Vercel, **Add New → Project**, import the repository. Framework is detected as Next.js; the root directory, build command and output stay at their defaults.
 3. Add the environment variables below (Project → Settings → Environment Variables), then deploy.
 
 ## Firebase setup (free Spark plan, about 5 minutes)
@@ -66,7 +69,7 @@ Without Firebase keys everything works except sign-in, uploads and saved alert r
 
 6. Redeploy on Vercel. `/api/health` should now report `"database": "connected"`.
 
-For local development with Firebase, put the same variables in `.env.local`.
+For local development with Firebase, copy `.env.example` to `.env.local` and fill in the same variables.
 
 ## Keeping the data current
 

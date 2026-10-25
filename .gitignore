@@ -15,6 +15,5 @@ next-env.d.ts
 *.log
 .vercel
 
-# regenerable video renders and stems (rebuild with the scripts in parallax-video/scripts)
-parallax-video/stills/
-parallax-video/public/*.wav
+# kept out of the repository
+parallax-video/
