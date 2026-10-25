@@ -1,0 +1,263 @@
+{
+ "fps": 30,
+ "overlap": 14,
+ "total": 4821,
+ "scenes": [
+  {
+   "name": "open",
+   "vo": [
+    {
+     "id": "open1",
+     "from": 12,
+     "len": 129
+    },
+    {
+     "id": "open2",
+     "from": 147,
+     "len": 82
+    }
+   ],
+   "ev": {
+    "split": 117,
+    "four": 147,
+    "prices": 151
+   },
+   "dur": 247,
+   "start": 0
+  },
+  {
+   "name": "trap",
+   "vo": [
+    {
+     "id": "trap1",
+     "from": 14,
+     "len": 188
+    },
+    {
+     "id": "trap2",
+     "from": 210,
+     "len": 202
+    }
+   ],
+   "ev": {
+    "pill": 60,
+    "strike": 214,
+    "chips": 272,
+    "final": 360
+   },
+   "dur": 442,
+   "start": 233
+  },
+  {
+   "name": "title",
+   "vo": [
+    {
+     "id": "title1",
+     "from": 48,
+     "len": 57
+    },
+    {
+     "id": "title2",
+     "from": 109,
+     "len": 88
+    }
+   ],
+   "ev": {
+    "drop": 46,
+    "tagline": 109
+   },
+   "dur": 225,
+   "start": 661
+  },
+  {
+   "name": "ledger",
+   "vo": [
+    {
+     "id": "ledger1",
+     "from": 18,
+     "len": 251
+    },
+    {
+     "id": "ledger2",
+     "from": 277,
+     "len": 106
+    }
+   ],
+   "ev": {
+    "rows": 50,
+    "morph": 277,
+    "formula": 332,
+    "caption": 347
+   },
+   "dur": 423,
+   "start": 872
+  },
+  {
+   "name": "carry",
+   "vo": [
+    {
+     "id": "carry1",
+     "from": 18,
+     "len": 224
+    },
+    {
+     "id": "carry2",
+     "from": 250,
+     "len": 278
+    }
+   ],
+   "ev": {
+    "draw": 40,
+    "points": 95,
+    "guide": 250,
+    "slide": 295,
+    "label": 350,
+    "caption": 440
+   },
+   "dur": 558,
+   "start": 1281
+  },
+  {
+   "name": "witness",
+   "vo": [
+    {
+     "id": "witness1",
+     "from": 18,
+     "len": 186
+    },
+    {
+     "id": "witness2",
+     "from": 212,
+     "len": 294
+    }
+   ],
+   "ev": {
+    "axis": 202,
+    "markers": 212,
+    "consensus": 362,
+    "caption": 437
+   },
+   "dur": 536,
+   "start": 1825
+  },
+  {
+   "name": "moat",
+   "vo": [
+    {
+     "id": "moat1",
+     "from": 18,
+     "len": 247
+    },
+    {
+     "id": "moat2",
+     "from": 273,
+     "len": 186
+    }
+   ],
+   "ev": {
+    "bar0": 60,
+    "bar1": 125,
+    "bar2": 170,
+    "bar3": 215,
+    "line": 277,
+    "costs": 293,
+    "stamp": 355
+   },
+   "dur": 489,
+   "start": 2347
+  },
+  {
+   "name": "dash",
+   "vo": [
+    {
+     "id": "dash1",
+     "from": 20,
+     "len": 235
+    },
+    {
+     "id": "dash2",
+     "from": 261,
+     "len": 178
+    },
+    {
+     "id": "dash3",
+     "from": 457,
+     "len": 290
+    },
+    {
+     "id": "dash4",
+     "from": 749,
+     "len": 275
+    }
+   ],
+   "ev": {
+    "receipt": 60,
+    "scrub": 261,
+    "scrubLen": 110,
+    "alert": 443,
+    "card": 741,
+    "cursorCard": 781
+   },
+   "dur": 1060,
+   "start": 2822
+  },
+  {
+   "name": "attr",
+   "vo": [
+    {
+     "id": "attr1",
+     "from": 16,
+     "len": 85
+    },
+    {
+     "id": "attr2",
+     "from": 109,
+     "len": 360
+    }
+   ],
+   "ev": {
+    "bar0": 109,
+    "bar1": 139,
+    "bar2": 171,
+    "bar3": 207,
+    "net": 284,
+    "caption": 359
+   },
+   "dur": 499,
+   "start": 3868
+  },
+  {
+   "name": "phone",
+   "vo": [
+    {
+     "id": "phone1",
+     "from": 20,
+     "len": 184
+    }
+   ],
+   "ev": {
+    "b0": 40,
+    "b1": 80,
+    "b2": 125
+   },
+   "dur": 244,
+   "start": 4353
+  },
+  {
+   "name": "end",
+   "vo": [
+    {
+     "id": "end1",
+     "from": 40,
+     "len": 148
+    }
+   ],
+   "ev": {
+    "letters": 30,
+    "tagline": 70
+   },
+   "dur": 238,
+   "start": 4583
+  }
+ ]
+}
